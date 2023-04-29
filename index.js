@@ -1,0 +1,26 @@
+let Coche = {marca: "Audi", modelo: "Q8", matricula: "4532-YTG"};
+let Casa = {codPostal: "28456", calle: "Fernando Trujillo", portal: "4", piso: "3-B"};
+let FullStackDeveloper = {lenguajes: ["JavaScript"], proyectos: ["Staticweb and interactive web"]};
+let Perro = {nombre: "Pequi", raza: "Border Collie", color: "negro y blanco", edad: "6 años", ladrar: function(){console.log("ladrillo")}, popo: function(){return Math.random() * 3} }
+let marcaPortatil = Portatil.marca;
+let marcaPortatil2 = Portatil["marca"];
+let grupos = Concierto.grupos;
+let RGB = [Led.rojo, Led.verde, Led.azul];
+Portatil.modelo = "P345";
+Concierto["cartelera"].push("Guns N' Roses");
+Concierto.fecha = new Date()
+Impresora.imprimiendo = {nombreArchivo: "html,css,js", copias: "25", numPaginas: "30"};
+let Noticia = {titular: "Xavier", cuerpo: "Marca"};
+let Persona = {nombre: "Gustavo", apellidos: "Xavez", edad: "muerto"};
+let Avion = {numPasajeros: "95", despegar: function(){console.log("despegando")}, volar: function(){console.log("llegando al destino")}, aterrizar: function(){console.log("aterrizando")}};
+let Paquete = {contenido: ["serpientes", "tiburones", "medicinas", "mascarillas"]};
+let Pais = {numHabitantes: "350M", continente: "USA", gentilicio: "Estadounidenses, Americanos"};
+const codError = O_Error.codigo;
+const integrantes = Grupo.integrantes;
+const nivelesTinta = Impresora.tinta;
+const pixeles = Pantalla.pixeles;
+const especificaciones = Movil.especificaciones;
+Grupo.numIntegrantes = 5;
+Pantalla.dimensiones = "1920x1080";
+Led.encendido = false ? true : false;
+Movil.temperatura = "20º";
